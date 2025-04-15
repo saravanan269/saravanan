@@ -15,3 +15,12 @@
 
 mail id "sara0426vanan@gmail.com (or) sara2004vanan@outlook.com."
 
+---
+
+User id: doctor
+password: doctor123
+
+
+
+---
+
