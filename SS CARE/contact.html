@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SS CARE+ | Contact</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/animations.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">SS CARE+</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="doctors.html">Doctors</a></li>
+        <li><a href="appointments.html">Appointments</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html" class="btn-login">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section id="contact">
+      <h2 class="fade-in">Contact Us</h2>
+      <div class="contact-content">
+        <!-- Contact Form -->
+        <div class="contact-form slide-in-left">
+          <h3>Send Us a Message</h3>
+          <form id="contactForm">
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="subject" placeholder="Subject" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn-primary">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Hospital Information -->
+        <div class="hospital-info slide-in-right">
+          <h3>Our Hospital</h3>
+          <p>At SS CARE+, we are committed to providing world-class healthcare services. Our state-of-the-art facilities and experienced medical professionals ensure the best care for our patients.</p>
+          <div class="info-cards">
+            <div class="info-card">
+              <i class="fas fa-map-marker-alt"></i>
+              <h4>Location</h4>
+              <p>123 Health St, MedCity, World</p>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-phone"></i>
+              <h4>Phone</h4>
+              <p>+123 456 7890</p>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-envelope"></i>
+              <h4>Email</h4>
+              <p>info@sscareplus.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Google Map -->
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509374!2d144.9537353153166!3d-37.816279742021665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d6d2d2a4a3b!2sFederation%20Square!5e0!3m2!1sen!2sus!4v1622549400000!5m2!1sen!2sus"
+          width="100%"
+          height="400"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+<footer class="footer">
+  <div class="footer-content">
+    <!-- Quick Links -->
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="doctors.html">Doctors</a></li>
+        <li><a href="appointments.html">Appointments</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <p>📞 +123 456 7890</p>
+      <p>📧 info@sscareplus.com</p>
+      <p>📍 123 Health St, MedCity, World</p>
+    </div>
+
+    <!-- Social Media -->
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <p>&copy; 2023 SS CARE+. All rights reserved.</p>
+  </div>
+
+  <!-- Scroll-to-Top Button -->
+  <button id="scrollToTopBtn" class="scroll-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+</footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
